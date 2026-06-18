@@ -4,6 +4,10 @@
 hello
 employee
 logwriter
+simple_pipe
+producer
+consumer
+bidirectional
 
 # Log files
 *.log
