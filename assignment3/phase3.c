@@ -1,25 +1,5 @@
-/*
- * CS 3502 - Project 1: Multi-Threaded Banking System
- * Phase 3: Deadlock Creation
- *
- * Two accounts (A=0, B=1), each with its own mutex.
- * Thread 1 repeatedly transfers A -> B  (locks A, then B)
- * Thread 2 repeatedly transfers B -> A  (locks B, then A)
- *
- * This creates a classic circular wait:
- *   Thread 1 holds lock(A), wants lock(B)
- *   Thread 2 holds lock(B), wants lock(A)
- * -> both threads block forever -> DEADLOCK.
- *
- * We add a watchdog thread that just prints a timestamp every second.
- * When the watchdog is the ONLY thing still printing (the transfer
- * threads have gone silent), that is the visual proof of deadlock for
- * your screenshot/video. After DEADLOCK_TIMEOUT seconds with no
- * progress from the transfer threads we print a "possible deadlock
- * detected" message and exit main() (the stuck threads are simply
- * abandoned when the process exits - this is expected for Phase 3;
- * Phase 4 is where we actually PREVENT this).
- */
+//Phase 3: Deadlock Creation
+
 
 #include <pthread.h>
 #include <stdio.h>
