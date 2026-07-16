@@ -1,18 +1,6 @@
-/*
- * CS 3502 - Project 1: Multi-Threaded Banking System
- * Phase 1: Basic Threads (NO synchronization)
- *
- * Goal: show that when multiple threads read-modify-write the same
- * shared variable without any protection, the final result is WRONG
- * and inconsistent from run to run. This is a race condition.
- *
- * There is ONE shared account balance. NUM_THREADS threads each perform
- * TRANSACTIONS_PER_THREAD deposits of DEPOSIT_AMOUNT. If everything went
- * perfectly the final balance would be:
- *     INITIAL_BALANCE + NUM_THREADS * TRANSACTIONS_PER_THREAD * DEPOSIT_AMOUNT
- * Because there is no locking, some deposits get "lost" when two threads
- * read the same old balance before either one writes the new balance back.
- */
+
+// Phase 1: Basic Threads (NO synchronization)
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
