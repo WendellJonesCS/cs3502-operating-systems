@@ -1,19 +1,5 @@
-/*
- * CS 3502 - Project 1: Multi-Threaded Banking System
- * Phase 4: Deadlock Resolution (Lock Ordering strategy)
- *
- * Same A<->B transfer scenario as Phase 3, but safe_transfer() always
- * acquires the LOWER account_id's lock first, regardless of which
- * direction the money is moving. That breaks the circular-wait
- * condition (one of the 4 Coffman conditions required for deadlock):
- * both threads now agree on a global lock order, so it is impossible
- * for Thread 1 to hold A-wait-for-B while Thread 2 holds B-wait-for-A.
- *
- * We run many transfers from both directions concurrently and prove
- * two things:
- *   1. The program always finishes (no deadlock).
- *   2. The final balances are still correct (mutex protection is intact).
- */
+
+ //Phase 4: Deadlock Resolution (Lock Ordering strategy)
 
 #include <pthread.h>
 #include <stdio.h>
