@@ -1,16 +1,5 @@
-/*
- * CS 3502 - Project 1: Multi-Threaded Banking System
- * Phase 2: Resource Protection (pthread mutex)
- *
- * Same setup as Phase 1, but now the shared account has its own
- * pthread_mutex_t. Every read-modify-write of account.balance happens
- * inside lock/unlock, so only one thread can touch it at a time.
- * This should produce the mathematically correct final balance every
- * single time, no matter how many threads or transactions we use.
- *
- * We also time the run so we can compare Phase 1 (unsafe/fast) vs
- * Phase 2 (safe/slower due to lock contention) in the report.
- */
+
+// Phase 2: Resource Protection (pthread mutex)
 
 #include <pthread.h>
 #include <stdio.h>
