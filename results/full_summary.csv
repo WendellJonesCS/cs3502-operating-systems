@@ -1,0 +1,55 @@
+Workload Size,Workload Type,Algorithm,Avg Waiting Time,Avg Turnaround Time,Avg Response Time,CPU Utilization (%),Throughput (proc/unit time),Total Time,Num Processes
+small,cpu_bound,FCFS,64.5,85.125,64.5,100.0,0.0485,165,8
+small,cpu_bound,SJF,57.125,77.75,57.125,100.0,0.0485,165,8
+small,cpu_bound,Round Robin,111.375,132.0,12.75,100.0,0.0485,165,8
+small,cpu_bound,Priority,74.0,94.625,74.0,100.0,0.0485,165,8
+small,cpu_bound,SRTF,57.125,77.75,57.125,100.0,0.0485,165,8
+small,cpu_bound,MLFQ,92.625,113.25,12.75,100.0,0.0485,165,8
+small,io_bound,FCFS,10.125,13.125,10.125,100.0,0.3333,24,8
+small,io_bound,SJF,5.25,8.25,5.25,100.0,0.3333,24,8
+small,io_bound,Round Robin,11.5,14.5,7.75,100.0,0.3333,24,8
+small,io_bound,Priority,8.125,11.125,8.125,100.0,0.3333,24,8
+small,io_bound,SRTF,5.25,8.25,5.25,100.0,0.3333,24,8
+small,io_bound,MLFQ,11.5,14.5,7.75,100.0,0.3333,24,8
+small,mixed,FCFS,49.25,63.125,49.25,100.0,0.0721,111,8
+small,mixed,SJF,35.25,49.125,35.25,100.0,0.0721,111,8
+small,mixed,Round Robin,70.375,84.25,12.625,100.0,0.0721,111,8
+small,mixed,Priority,48.625,62.5,48.625,100.0,0.0721,111,8
+small,mixed,SRTF,35.0,48.875,34.625,100.0,0.0721,111,8
+small,mixed,MLFQ,67.25,81.125,12.625,100.0,0.0721,111,8
+medium,cpu_bound,FCFS,277.0,296.9,277.0,100.0,0.0503,597,30
+medium,cpu_bound,SJF,230.733,250.633,230.733,100.0,0.0503,597,30
+medium,cpu_bound,Round Robin,435.633,455.533,55.667,100.0,0.0503,597,30
+medium,cpu_bound,Priority,272.233,292.133,272.233,100.0,0.0503,597,30
+medium,cpu_bound,SRTF,224.633,244.533,212.967,100.0,0.0503,597,30
+medium,cpu_bound,MLFQ,391.633,411.533,51.4,100.0,0.0503,597,30
+medium,io_bound,FCFS,37.767,40.933,37.767,100.0,0.3158,95,30
+medium,io_bound,SJF,26.767,29.933,26.767,100.0,0.3158,95,30
+medium,io_bound,Round Robin,43.933,47.1,32.5,100.0,0.3158,95,30
+medium,io_bound,Priority,37.633,40.8,37.633,100.0,0.3158,95,30
+medium,io_bound,SRTF,25.667,28.833,24.1,100.0,0.3158,95,30
+medium,io_bound,MLFQ,45.267,48.433,31.867,100.0,0.3158,95,30
+medium,mixed,FCFS,135.933,147.267,135.933,100.0,0.0882,340,30
+medium,mixed,SJF,94.133,105.467,94.133,100.0,0.0882,340,30
+medium,mixed,Round Robin,176.033,187.367,48.567,100.0,0.0882,340,30
+medium,mixed,Priority,135.9,147.233,135.9,100.0,0.0882,340,30
+medium,mixed,SRTF,94.067,105.4,93.667,100.0,0.0882,340,30
+medium,mixed,MLFQ,171.4,182.733,44.767,100.0,0.0882,340,30
+large,cpu_bound,FCFS,1227.867,1248.717,1227.867,99.96,0.0479,2503,120
+large,cpu_bound,SJF,1011.092,1031.942,1011.092,99.96,0.0479,2503,120
+large,cpu_bound,Round Robin,2014.15,2035.0,235.642,100.0,0.0479,2503,120
+large,cpu_bound,Priority,1183.433,1204.283,1183.433,99.96,0.0479,2503,120
+large,cpu_bound,SRTF,1011.092,1031.942,1011.092,100.0,0.0479,2503,120
+large,cpu_bound,MLFQ,1885.525,1906.375,210.842,100.0,0.0479,2503,120
+large,io_bound,FCFS,187.5,191.05,187.5,99.77,0.281,427,120
+large,io_bound,SJF,124.983,128.533,124.983,99.77,0.281,427,120
+large,io_bound,Round Robin,219.033,222.583,160.0,100.0,0.281,427,120
+large,io_bound,Priority,177.625,181.175,177.625,99.77,0.281,427,120
+large,io_bound,SRTF,124.975,128.525,124.958,100.0,0.281,427,120
+large,io_bound,MLFQ,227.008,230.558,153.6,100.0,0.281,427,120
+large,mixed,FCFS,592.083,602.75,592.083,100.0,0.0938,1280,120
+large,mixed,SJF,344.85,355.517,344.85,100.0,0.0938,1280,120
+large,mixed,Round Robin,678.1,688.767,201.458,100.0,0.0938,1280,120
+large,mixed,Priority,574.917,585.583,574.917,100.0,0.0938,1280,120
+large,mixed,SRTF,343.117,353.783,340.642,100.0,0.0938,1280,120
+large,mixed,MLFQ,664.775,675.442,180.058,100.0,0.0938,1280,120
