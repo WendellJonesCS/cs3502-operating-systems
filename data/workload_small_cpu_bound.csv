@@ -1,9 +1,0 @@
-Process ID,Arrival Time,Burst Time,Priority,Type
-P1,0,10,3,CPU-bound
-P3,0,27,1,CPU-bound
-P5,0,12,2,CPU-bound
-P7,0,27,2,CPU-bound
-P2,1,17,2,CPU-bound
-P6,1,26,5,CPU-bound
-P4,4,23,1,CPU-bound
-P8,4,23,2,CPU-bound
