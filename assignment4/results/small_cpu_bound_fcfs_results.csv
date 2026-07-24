@@ -1,0 +1,9 @@
+Process ID,Arrival Time,Burst Time,Priority,Start Time,Completion Time,Waiting Time,Turnaround Time,Response Time
+P1,0,10,3,0,10,0,10,0
+P3,0,27,1,10,37,10,37,10
+P5,0,12,2,37,49,37,49,37
+P7,0,27,2,49,76,49,76,49
+P2,1,17,2,76,93,75,92,75
+P6,1,26,5,93,119,92,118,92
+P4,4,23,1,119,142,115,138,115
+P8,4,23,2,142,165,138,161,138

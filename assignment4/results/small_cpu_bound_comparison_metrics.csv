@@ -1,0 +1,7 @@
+Algorithm,Avg Waiting Time,Avg Turnaround Time,Avg Response Time,CPU Utilization (%),Throughput (proc/unit time),Total Time,Num Processes
+FCFS,64.5,85.125,64.5,100.0,0.0485,165,8
+SJF,57.125,77.75,57.125,100.0,0.0485,165,8
+Round Robin,111.375,132.0,12.75,100.0,0.0485,165,8
+Priority,74.0,94.625,74.0,100.0,0.0485,165,8
+SRTF,57.125,77.75,57.125,100.0,0.0485,165,8
+MLFQ,92.625,113.25,12.75,100.0,0.0485,165,8
